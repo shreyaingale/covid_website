@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <script src="index.js"></script>
+     <title>covid-19 tracker</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+</head>
+ <body>
+    <div class="container">
+         <div class="searchBox">
+             <input type="text"id="myInput"class="searchTxt"placeholder="Type to search">
+             <a href="#" class="searchBtn" onclick="getInput();">
+                 <i class="fa fa-search"></i>
+             </a>
+         </div>
+         <h1> COVID-19 CASES IN <span id="country"></span> <img src="" alt="COUNTRY" id="flag" ></h1>
+        <div class="content">
+         <div class="box">
+             <div class="sub-title active">Active Cases</div>
+             <div class="data" id="Active_Cases"></div>
+         </div>
+         <div class="box">
+            <div class="sub-title total">Total Cases</div>
+            <div class="data" id="Total_Cases"></div>
+        </div>
+        <div class="box">
+            <div class="sub-title critical">Critical  Cases</div>
+            <div class="data" id="Critical_Cases"></div>
+        </div>
+        <div class="box">
+            <div class="sub-title deaths">Total Deaths</div>
+            <div class="data" id="Total_Death"></div>
+        </div>
+        <div class="box">
+            <div class="sub-title recovered">Recovered Cases</div>
+            <div class="data" id="Recovered_Cases"></div>
+        </div>
+        <div class="box">
+            <div class="sub-title test">Total Test Done</div>
+            <div class="data" id="Total_Test_Done" ></div>
+        </div>
+     </div>
+    </div>
+
+     
+ </body>
+ </html>
+ 
